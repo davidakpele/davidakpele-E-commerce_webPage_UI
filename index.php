@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>Emarket - Situs jual beli online terlengkap</title>
+<title>BangBaze</title>
 <meta name="robots" content="index, follow">
 <meta name="description" content="Menyajikan berita terbaru, tercepat, dan terpercaya seputar tunggul hitam.">
 <meta name="keywords" content="Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.">
@@ -19,21 +19,22 @@
 <link rel="shortcut icon" href="img/log.png"/>
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="rss.xml"/>
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&amp;amp;subset=latin-ext" rel="stylesheet">
-<link rel="stylesheet" href="css/plugins/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/plugins/fonts/Linearicons/Linearicons/Font/demo-files/demo.css">
-<link rel="stylesheet" href="css/plugins/bootstrap4/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/plugins/owl-carousel/assets/owl.carousel.css">
-<link rel="stylesheet" href="css/plugins/slick/slick/slick.css">
-<link rel="stylesheet" href="css/plugins/lightGallery-master/dist/css/lightgallery.min.css">
-<link rel="stylesheet" href="css/plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
-<link rel="stylesheet" href="css/plugins/jquery-ui/jquery-ui.min.css">
-<link rel="stylesheet" href="css/plugins/select2/dist/css/select2.min.css">
-<link rel="stylesheet" href="css/red.css">
-<link rel="stylesheet" href="css/custom.css">
-<link rel="stylesheet" href="css/bootstrap-multiselect.css">
-<link rel="stylesheet" href="css/plugins/datatables/dataTables.bootstrap.css">
-<link rel="stylesheet" href="css/summernote-bs4.css">
-<link rel="stylesheet" type="css/uploadfile.css">
+<link rel="stylesheet" type="text/css"href="css/plugins/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"href="css/plugins/fonts/Linearicons/Linearicons/Font/demo-files/demo.css">
+<link rel="stylesheet" type="text/css"href="css/plugins/bootstrap4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"href="css/plugins/owl-carousel/assets/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/slick/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/lightGallery-master/dist/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/select2/dist/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="css/red.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/datatables/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/summernote-bs4.css">
+<link rel="stylesheet" type="text/css"href="css/uploadfile.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
@@ -68,133 +69,7 @@
         })
         })
     </script>
-<style>
-        .dataTables_wrapper .row{ width:100% }
-        table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after{ display:none }
-        .dataTables_length select, .dataTables_filter input[type=search]{ height:30px }
-        .dataTables_length{ float:left }
-        .dataTables_filter{ float:right }
-        #example1 th, #example11 th{ font-weight:bold }
-        .modal-content .btn-primary{ height: 30px; font-size: 12px; }
-        .modal-content input[type=text]{ height: 30px; }
-        .iconset .fa { font-size: 13px !important; }
-        .blink_me{
-            animation:blinker 1s linear infinite;color:red
-        }
-        .blink_me:hover{
-            animation:blinker 0s linear infinite;color:red
-        }
-        @keyframes blinker{
-            50%{opacity:0}
-        }
-        .mb-10{
-          margin-bottom:0px;
-        }
-        .pricing-table-product-box {
-            -webkit-box-shadow: 0 4px 9px 0 rgba(67,65,79,.1);
-            box-shadow: 0 4px 9px 0 rgba(67,65,79,.1);
-            border: solid 2px #f5f5f5;
-        }
-        .harga {
-            font-size: 3em;
-            font-weight: 700;
-            line-height: .8em;
-          display:inline-block;
-        }
-        .currency {
-            font-size: 1em;
-            font-weight: 700;
-            margin-top: .2em;
-          display:inline-block;
-        }
-        .waktu {
-            font-size: .7em;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-align: end;
-            -ms-flex-align: end;
-            align-items: flex-end;
-            margin: .3em;
-          display:inline-block;
-        }
-        .waktu_block{
-          display:inline-block;
-        }
-        #Back-to-top { text-align: center; z-index: 99999; position: fixed; bottom: 70px; right: 30px; cursor: pointer; display: none; opacity: 0.7; } 
-        #Back-to-top:hover { opacity: 1; } 
-        .badge-secondary {
-            color: #fff;
-            background-color: #dd2400;
-            padding: 5px 7px 4px 7px;
-        }
-        .notif .nav-tabs .nav-link {
-            background: #3cd03c;
-            color: #fff;
-            border-top:1px solid #e3e3e3 !important;
-            border-left:1px solid #e3e3e3 !important;
-            border-right:1px solid #e3e3e3 !important;
-        }
-        .notif .badge-secondary {
-            color: #fff;
-            background-color: #00b30e;
-            padding: 5px 7px 4px 7px;
-        }
-        .notif .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-            color: #495057 !important;
-            background-color: #fff !important;
-        }
-        .penjualan .nav-tabs .nav-link {
-            background: #ff9900;
-            color: #fff;
-            border-top:1px solid #e3e3e3 !important;
-            border-left:1px solid #e3e3e3 !important;
-            border-right:1px solid #e3e3e3 !important;
-        }
-        .penjualan .badge-secondary {
-            color: #fff;
-            background-color: #dc8400;
-            padding: 5px 7px 4px 7px;
-        }
-        .penjualan .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-            color: #495057 !important;
-            background-color: #fff !important;
-        }
-        .container .ps-section__content{
-            min-height:650px;
-        }
-        input[type=number]::-webkit-inner-spin-button {
-            opacity: 1
-        }
-        .form-control{
-            border-bottom: 1px solid #cecece;
-            border-top: 0px;
-            border-left: 0px;
-            border-right: 0px;
-            background-color: #f9f9f9;
-        }
-        .multiselect-container{
-            width: 100%;
-            font-size: 13px;
-        }
-        button.multiselect {
-            font-size: 14px;
-        }
-        .multiselect-container>li {
-            border-bottom: 1px dotted #e3e3e3;
-        }
-</style>
-<style>
-        .form-sm .form-group{
-            margin-bottom: 5px !important;
-        }
-        .form-sm i{
-            margin-left: 10px;
-        }
-        .form-sm .ajax-file-upload{
-            width:100%;
-        }
-</style>
+
 </head>
 <body>
 <div class="modal fade bd-example-modal-lg" style='z-index:99999' tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -1239,7 +1114,7 @@
 
 
 <div id="homepage-1">
-	<!--<div class="ps-container" style='margin-top:10px'>
+	<div class="ps-container" style='margin-top:10px'>
 		<div class='ps-block--site-features' style='margin-top:10px; background-color:#fff; border: none; padding: 10px 0px;'>
 			<form class='col-md-12' style='padding-right:0px; padding-left:0px' method='POST' action='#'>
 				<div class='form-row'>
@@ -1270,7 +1145,7 @@
 			</div>
 			<div style='clear:both'></div>
 		</div>
-	</div>-->
+	</div>
 	<div class="ps-home-banner ps-home-banner--1" style='padding-top:20px'>
 		<div class="ps-container">
 			<div class="ps-section__left">
